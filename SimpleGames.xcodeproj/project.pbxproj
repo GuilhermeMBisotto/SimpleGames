@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07F0F86D1A37D70C003929C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F86C1A37D70C003929C4 /* AppDelegate.swift */; };
+		07F0F8701A37D70C003929C4 /* SimpleGames.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F86E1A37D70C003929C4 /* SimpleGames.xcdatamodeld */; };
+		07F0F8721A37D70C003929C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F8711A37D70C003929C4 /* ViewController.swift */; };
+		07F0F8751A37D70C003929C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07F0F8731A37D70C003929C4 /* Main.storyboard */; };
+		07F0F8771A37D70C003929C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F0F8761A37D70C003929C4 /* Images.xcassets */; };
+		07F0F87A1A37D70C003929C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F0F8781A37D70C003929C4 /* LaunchScreen.xib */; };
+		07F0F8861A37D70C003929C4 /* SimpleGamesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F8851A37D70C003929C4 /* SimpleGamesTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07F0F8801A37D70C003929C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 07F0F85F1A37D70C003929C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07F0F8661A37D70C003929C4;
+			remoteInfo = SimpleGames;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07F0F8671A37D70C003929C4 /* SimpleGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F0F86B1A37D70C003929C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F0F86C1A37D70C003929C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07F0F86F1A37D70C003929C4 /* SimpleGames.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleGames.xcdatamodel; sourceTree = "<group>"; };
+		07F0F8711A37D70C003929C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		07F0F8741A37D70C003929C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07F0F8761A37D70C003929C4 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		07F0F8791A37D70C003929C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		07F0F87F1A37D70C003929C4 /* SimpleGamesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleGamesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		07F0F8841A37D70C003929C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F0F8851A37D70C003929C4 /* SimpleGamesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGamesTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07F0F8641A37D70C003929C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F0F87C1A37D70C003929C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07F0F85E1A37D70C003929C4 = {
+			isa = PBXGroup;
+			children = (
+				07F0F8691A37D70C003929C4 /* SimpleGames */,
+				07F0F8821A37D70C003929C4 /* SimpleGamesTests */,
+				07F0F8681A37D70C003929C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		07F0F8681A37D70C003929C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07F0F8671A37D70C003929C4 /* SimpleGames.app */,
+				07F0F87F1A37D70C003929C4 /* SimpleGamesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07F0F8691A37D70C003929C4 /* SimpleGames */ = {
+			isa = PBXGroup;
+			children = (
+				07F0F86C1A37D70C003929C4 /* AppDelegate.swift */,
+				07F0F8711A37D70C003929C4 /* ViewController.swift */,
+				07F0F8731A37D70C003929C4 /* Main.storyboard */,
+				07F0F8761A37D70C003929C4 /* Images.xcassets */,
+				07F0F8781A37D70C003929C4 /* LaunchScreen.xib */,
+				07F0F86E1A37D70C003929C4 /* SimpleGames.xcdatamodeld */,
+				07F0F86A1A37D70C003929C4 /* Supporting Files */,
+			);
+			path = SimpleGames;
+			sourceTree = "<group>";
+		};
+		07F0F86A1A37D70C003929C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07F0F86B1A37D70C003929C4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		07F0F8821A37D70C003929C4 /* SimpleGamesTests */ = {
+			isa = PBXGroup;
+			children = (
+				07F0F8851A37D70C003929C4 /* SimpleGamesTests.swift */,
+				07F0F8831A37D70C003929C4 /* Supporting Files */,
+			);
+			path = SimpleGamesTests;
+			sourceTree = "<group>";
+		};
+		07F0F8831A37D70C003929C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				07F0F8841A37D70C003929C4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07F0F8661A37D70C003929C4 /* SimpleGames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F0F8891A37D70C003929C4 /* Build configuration list for PBXNativeTarget "SimpleGames" */;
+			buildPhases = (
+				07F0F8631A37D70C003929C4 /* Sources */,
+				07F0F8641A37D70C003929C4 /* Frameworks */,
+				07F0F8651A37D70C003929C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleGames;
+			productName = SimpleGames;
+			productReference = 07F0F8671A37D70C003929C4 /* SimpleGames.app */;
+			productType = "com.apple.product-type.application";
+		};
+		07F0F87E1A37D70C003929C4 /* SimpleGamesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07F0F88C1A37D70C003929C4 /* Build configuration list for PBXNativeTarget "SimpleGamesTests" */;
+			buildPhases = (
+				07F0F87B1A37D70C003929C4 /* Sources */,
+				07F0F87C1A37D70C003929C4 /* Frameworks */,
+				07F0F87D1A37D70C003929C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				07F0F8811A37D70C003929C4 /* PBXTargetDependency */,
+			);
+			name = SimpleGamesTests;
+			productName = SimpleGamesTests;
+			productReference = 07F0F87F1A37D70C003929C4 /* SimpleGamesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07F0F85F1A37D70C003929C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = BEPiD.GuilhermeBisotto;
+				TargetAttributes = {
+					07F0F8661A37D70C003929C4 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					07F0F87E1A37D70C003929C4 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 07F0F8661A37D70C003929C4;
+					};
+				};
+			};
+			buildConfigurationList = 07F0F8621A37D70C003929C4 /* Build configuration list for PBXProject "SimpleGames" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07F0F85E1A37D70C003929C4;
+			productRefGroup = 07F0F8681A37D70C003929C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07F0F8661A37D70C003929C4 /* SimpleGames */,
+				07F0F87E1A37D70C003929C4 /* SimpleGamesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07F0F8651A37D70C003929C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F0F8751A37D70C003929C4 /* Main.storyboard in Resources */,
+				07F0F87A1A37D70C003929C4 /* LaunchScreen.xib in Resources */,
+				07F0F8771A37D70C003929C4 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F0F87D1A37D70C003929C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07F0F8631A37D70C003929C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F0F8721A37D70C003929C4 /* ViewController.swift in Sources */,
+				07F0F86D1A37D70C003929C4 /* AppDelegate.swift in Sources */,
+				07F0F8701A37D70C003929C4 /* SimpleGames.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		07F0F87B1A37D70C003929C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07F0F8861A37D70C003929C4 /* SimpleGamesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		07F0F8811A37D70C003929C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07F0F8661A37D70C003929C4 /* SimpleGames */;
+			targetProxy = 07F0F8801A37D70C003929C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		07F0F8731A37D70C003929C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F0F8741A37D70C003929C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07F0F8781A37D70C003929C4 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07F0F8791A37D70C003929C4 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07F0F8871A37D70C003929C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07F0F8881A37D70C003929C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07F0F88A1A37D70C003929C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleGames/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		07F0F88B1A37D70C003929C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleGames/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		07F0F88D1A37D70C003929C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleGamesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleGames.app/SimpleGames";
+			};
+			name = Debug;
+		};
+		07F0F88E1A37D70C003929C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SimpleGamesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleGames.app/SimpleGames";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07F0F8621A37D70C003929C4 /* Build configuration list for PBXProject "SimpleGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F0F8871A37D70C003929C4 /* Debug */,
+				07F0F8881A37D70C003929C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07F0F8891A37D70C003929C4 /* Build configuration list for PBXNativeTarget "SimpleGames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F0F88A1A37D70C003929C4 /* Debug */,
+				07F0F88B1A37D70C003929C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		07F0F88C1A37D70C003929C4 /* Build configuration list for PBXNativeTarget "SimpleGamesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07F0F88D1A37D70C003929C4 /* Debug */,
+				07F0F88E1A37D70C003929C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		07F0F86E1A37D70C003929C4 /* SimpleGames.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				07F0F86F1A37D70C003929C4 /* SimpleGames.xcdatamodel */,
+			);
+			currentVersion = 07F0F86F1A37D70C003929C4 /* SimpleGames.xcdatamodel */;
+			path = SimpleGames.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 07F0F85F1A37D70C003929C4 /* Project object */;
+}
