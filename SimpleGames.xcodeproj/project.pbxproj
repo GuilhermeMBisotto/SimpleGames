@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		07074DE81A38896800113574 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 07074DE71A38896800113574 /* Untitled-1.png */; };
 		07F0F86D1A37D70C003929C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F86C1A37D70C003929C4 /* AppDelegate.swift */; };
 		07F0F8701A37D70C003929C4 /* SimpleGames.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F86E1A37D70C003929C4 /* SimpleGames.xcdatamodeld */; };
 		07F0F8721A37D70C003929C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F8711A37D70C003929C4 /* ViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		07074DE71A38896800113574 /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-1.png"; sourceTree = "<group>"; };
 		07F0F8671A37D70C003929C4 /* SimpleGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F0F86B1A37D70C003929C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07F0F86C1A37D70C003929C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -58,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07DDE0A21A38830400E99519 /* Imgs */ = {
+			isa = PBXGroup;
+			children = (
+				07074DE71A38896800113574 /* Untitled-1.png */,
+			);
+			name = Imgs;
+			sourceTree = "<group>";
+		};
 		07F0F85E1A37D70C003929C4 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +89,7 @@
 		07F0F8691A37D70C003929C4 /* SimpleGames */ = {
 			isa = PBXGroup;
 			children = (
+				07DDE0A21A38830400E99519 /* Imgs */,
 				07F0F86C1A37D70C003929C4 /* AppDelegate.swift */,
 				07F0F8711A37D70C003929C4 /* ViewController.swift */,
 				07F0F8731A37D70C003929C4 /* Main.storyboard */,
@@ -195,6 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				07074DE81A38896800113574 /* Untitled-1.png in Resources */,
 				07F0F8751A37D70C003929C4 /* Main.storyboard in Resources */,
 				07F0F87A1A37D70C003929C4 /* LaunchScreen.xib in Resources */,
 				07F0F8771A37D70C003929C4 /* Images.xcassets in Resources */,
@@ -343,6 +355,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleGames/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -353,6 +366,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleGames/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -411,6 +425,7 @@
 				07F0F88B1A37D70C003929C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07F0F88C1A37D70C003929C4 /* Build configuration list for PBXNativeTarget "SimpleGamesTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +434,7 @@
 				07F0F88E1A37D70C003929C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
