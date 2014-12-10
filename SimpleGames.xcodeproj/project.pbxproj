@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		07074DE81A38896800113574 /* Untitled-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 07074DE71A38896800113574 /* Untitled-1.png */; };
+		07679FBB1A38ACC700FEC06D /* AdivinhaNumeroController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07679FBA1A38ACC700FEC06D /* AdivinhaNumeroController.swift */; };
 		07F0F86D1A37D70C003929C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F86C1A37D70C003929C4 /* AppDelegate.swift */; };
 		07F0F8701A37D70C003929C4 /* SimpleGames.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F86E1A37D70C003929C4 /* SimpleGames.xcdatamodeld */; };
 		07F0F8721A37D70C003929C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F0F8711A37D70C003929C4 /* ViewController.swift */; };
@@ -29,6 +30,7 @@
 
 /* Begin PBXFileReference section */
 		07074DE71A38896800113574 /* Untitled-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled-1.png"; sourceTree = "<group>"; };
+		07679FBA1A38ACC700FEC06D /* AdivinhaNumeroController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdivinhaNumeroController.swift; sourceTree = "<group>"; };
 		07F0F8671A37D70C003929C4 /* SimpleGames.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleGames.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07F0F86B1A37D70C003929C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		07F0F86C1A37D70C003929C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -92,6 +94,7 @@
 				07DDE0A21A38830400E99519 /* Imgs */,
 				07F0F86C1A37D70C003929C4 /* AppDelegate.swift */,
 				07F0F8711A37D70C003929C4 /* ViewController.swift */,
+				07679FBA1A38ACC700FEC06D /* AdivinhaNumeroController.swift */,
 				07F0F8731A37D70C003929C4 /* Main.storyboard */,
 				07F0F8761A37D70C003929C4 /* Images.xcassets */,
 				07F0F8781A37D70C003929C4 /* LaunchScreen.xib */,
@@ -230,6 +233,7 @@
 				07F0F8721A37D70C003929C4 /* ViewController.swift in Sources */,
 				07F0F86D1A37D70C003929C4 /* AppDelegate.swift in Sources */,
 				07F0F8701A37D70C003929C4 /* SimpleGames.xcdatamodeld in Sources */,
+				07679FBB1A38ACC700FEC06D /* AdivinhaNumeroController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
